@@ -43,7 +43,7 @@
     { "id": 26, "seasonNumber": 6, "episode": 23, "title": "Munkaügyi köztársaság" },
     { "id": 27, "seasonNumber": 6, "episode": 24, "title": "Az esküvö" }
   ],
-  "actors": [
+  "characters": [
     { "id": 1, "characterName": "Elvira", "actorName": "Molnár Piroska" },
     { "id": 2, "characterName": "János", "actorName": "Mucsi Zoltán" },
     { "id": 3, "characterName": "Katalin", "actorName": "Murányi Tünde" },
