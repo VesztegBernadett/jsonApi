@@ -1,14 +1,61 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "series":{
+    "title":"Munkaügyek",
+    "startYear":2012,
+    "endYear": 2017,
+    "director": "Márton István",
+    "writers": ["Hadházi László", "Kovács András Péter", "Litkai Gergely"]
+  },
+  "seasons": [
+    {"number":1, "episodesNumber":32},
+    {"number":2, "episodesNumber":24},
+    {"number":3, "episodesNumber":24},
+    {"number":4, "episodesNumber":24},
+    {"number":5, "episodesNumber":24},
+    {"number":6, "episodesNumber":24}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "episodes": [
+    { "id": 1, "seasonNumber": 1, "episode": 1,"title":"Timi és Karesz érkezése"},
+    { "id": 2, "seasonNumber": 1, "episode": 2,"title":"Az uniós ellenörzés híre és Imre balesete" },
+    { "id": 3, "seasonNumber": 1, "episode": 3,"title":"Tamás érkezése" },
+    { "id": 4, "seasonNumber": 1, "episode": 31,"title":"Egészségügyi vizsgálat" },
+    { "id": 5, "seasonNumber": 1, "episode": 32,"title":"A konference" },
+    
+    { "id": 6, "seasonNumber": 2, "episode": 1,"title":"A tanfolyam" },
+    { "id": 7, "seasonNumber": 2, "episode": 2,"title":"A vizsga" },
+    { "id": 8, "seasonNumber": 2, "episode": 3,"title":"Táppénzcsalás" },
+    { "id": 9, "seasonNumber": 2, "episode": 23,"title":"A tréning" },
+    { "id": 10, "seasonNumber": 2, "episode": 24,"title":"Megszünés" },
+    
+    { "id": 11, "seasonNumber": 3, "episode": 1,"title":"Fogadj örökbe" },
+    { "id": 12, "seasonNumber": 3, "episode": 2,"title":"Nabu" },
+    { "id": 13, "seasonNumber": 3, "episode": 3,"title":"Csere-bere bírság" },
+    { "id": 14, "seasonNumber": 3, "episode": 23,"title":"Közérdekű adatok" },
+    { "id": 15, "seasonNumber": 3, "episode": 24,"title":"24" },
+    
+    { "id": 16, "seasonNumber": 4, "episode": 1,"title":"Nyári élmények" },
+    { "id": 17, "seasonNumber": 4, "episode": 2,"title":"Elvira Fashion" },
+    { "id": 18, "seasonNumber": 4, "episode": 23,"title":"János kinevezése" },
+    { "id": 19, "seasonNumber": 4, "episode": 24,"title":"Átszervezés" },
+    
+    { "id": 20, "seasonNumber": 5, "episode": 1,"title":"A szakigazgatási szerv" },
+    { "id": 21, "seasonNumber": 5, "episode": 2,"title":"A kosárcsapat" },
+    { "id": 22, "seasonNumber": 5, "episode": 23,"title":"Érdekkapcsolatok" },
+    { "id": 23, "seasonNumber": 5, "episode": 24,"title":"A nyugdíjazás" },
+    
+    { "id": 24, "seasonNumber": 6, "episode": 1,"title":"Bakancslista" },
+    { "id": 25, "seasonNumber": 6, "episode": 2,"title":"A szuperszerv" },
+    { "id": 26, "seasonNumber": 6, "episode": 23,"title":"Munkaügyi köztársaság" },
+    { "id": 27, "seasonNumber": 6, "episode": 24,"title":"Az esküvö" }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "actors": [
+    { "id": 1, "characterName": "Elvira", "actorName": "Molnár Piroska"},
+    { "id": 2, "characterName": "János", "actorName": "Mucsi Zoltán"},
+    { "id": 3, "characterName": "Katalin", "actorName": "Murányi Tünde"},
+    { "id": 4, "characterName": "Albert", "actorName": "Elek Ferenc"},
+    { "id": 5, "characterName": "Timi", "actorName": "Fodor Annamária"},
+    { "id": 6, "characterName": "Karesz", "actorName": "Kovács Lehel"},
+    { "id": 7, "characterName": "Imre", "actorName": "Tamási Zoltán"},
+    { "id": 8, "characterName": "Levente", "actorName": "Gazsó György"},
+  ]
 }
